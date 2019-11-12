@@ -11,10 +11,10 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
-Route::post('post/save', 'PostController@store');
+// Route::post('post/save', 'PostController@store');
 
-Route::get('/','HomeController@index');
+// Route::get('/','HomeController@index');
